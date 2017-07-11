@@ -1,3 +1,57 @@
+.navbar-default {
+    background: #78588C;
+    border: none !important;
+}
+.navbar-purple {
+    background: #78588C;
+    border: none !important;
+}
+
+.navbar-transparent {
+    background: transparent;
+    border: none !important;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-transparent {
+        background: #78588C;
+        border: none !important;
+        color: white;
+    }
+}
+
+.navbar-text {
+    color: white !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+    cursor: pointer;
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    cursor: pointer;
+    color: #FFED91;
+}
+
+.navbar-default .navbar-brand {
+    cursor: pointer;
+    color: white;
+    font-size: 36px;
+}
+.navbar-default .navbar-brand::first-letter {
+    color: #FFED91;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #FFED91;
+}
+.navbar-default .navbar-brand:focus::first-letter,
+.navbar-default .navbar-brand:hover::first-letter {
+    color: white;
+}
+
 .header {
     z-index: 1;
     top: 0;
@@ -9,3 +63,71 @@
     background-size: cover;
     padding-top: 20vh;
  }
+
+.first-level-slogan {
+    padding-top: 10vh;
+    color: white;
+    font-size: 64px;
+}
+.second-level-slogan {
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-box-button {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    height: 50px;
+    width: 350px;
+    background-color: rgba(255,255,255,0.3);
+}
+.contact-box-button:hover {
+    color: #528FCC;
+    background-color: white;
+}
+
+.about {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    background: #F5F5F5;
+}
+
+.section-title {
+    padding-top: 10vh;
+    font-size: 36px;
+}
+.section-subtitle {
+    padding-bottom: 5vh;
+    font-size: 16px;
+}
+.specjalization-title {
+    font-size: 24px;
+}
+.specjalization-title::first-letter {
+    color: #E6E6E6;
+    font-weight: 900;
+    font-size: 82px;
+}
+.specjalization-subtitle {
+    font-size: 16px;
+}
+.footer {
+    margin-top: 15vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    color: white;
+    background: #78588C;
+}
+.footer-contact {
+    padding-top: 3vh;
+    padding-left: 10vh;
+}
